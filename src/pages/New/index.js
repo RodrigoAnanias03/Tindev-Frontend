@@ -56,7 +56,7 @@ export default function New({ history }){
         <label htmlFor="techs">TECNOLOGIAS * <span>(separadas por virgula)</span></label>
             <input 
                 id="techs"
-                placeholder="Valor diario?"
+                placeholder="Tecnologias que voces usam?"
                 value={techs}
                 onChange={event => setTechs(event.target.value)}
             /> 
@@ -64,7 +64,7 @@ export default function New({ history }){
         <label htmlFor="price">VALOR DA DIARIA * <span>(em branco para GRATUITO)</span></label>
         <input 
             id="price"
-            placeholder="Quais tecnologias usam?"
+            placeholder="Valor da diaria?"
             value={price}
             onChange={event => setPrice(event.target.value)}
         /> 
